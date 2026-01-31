@@ -3,7 +3,7 @@ cask "cc-query" do
   name "cc-query"
   desc "A thin CLI wrapper around Claude Code for fast, single-shot queries"
   homepage "https://github.com/laurensent/cc-query"
-  version "0.2.0"
+  version "0.2.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "cc-query" do
     on_intel do
       url "https://github.com/laurensent/cc-query/releases/download/v#{version}/cc-query_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/laurensent/cc-query"
-      sha256 "42581394c9d244efcdb54c2b7523a04762700b49a387144162699c636ac851ec"
+      sha256 "d27b6f59db717d66161f49ab85e06c17d68a4f6eb762efb4518019fbab0c655e"
     end
     on_arm do
       url "https://github.com/laurensent/cc-query/releases/download/v#{version}/cc-query_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/laurensent/cc-query"
-      sha256 "214e6704c783838c680f5f0d405facae2164debe289d68949a2d218ed83b5790"
+      sha256 "67d459986cc4e205e3a58ebafc246fb95f4758a7d387c52399034912aa077377"
     end
   end
 
@@ -28,12 +28,12 @@ cask "cc-query" do
     on_intel do
       url "https://github.com/laurensent/cc-query/releases/download/v#{version}/cc-query_#{version}_linux_amd64.tar.gz",
         verified: "github.com/laurensent/cc-query"
-      sha256 "5ac1311e9df0b4ae670c662487220230e81df48d73bbc022574af43ed811b2b5"
+      sha256 "a4632c9f28b66b7f14233aa3a6564cf1796a8fd599dbf1396c821cc46b47ef52"
     end
     on_arm do
       url "https://github.com/laurensent/cc-query/releases/download/v#{version}/cc-query_#{version}_linux_arm64.tar.gz",
         verified: "github.com/laurensent/cc-query"
-      sha256 "6b7e1e27bfd3324c141e3f8a4976cd3f7dd46036b6d4a60b5c84c065d9bebfff"
+      sha256 "d338ff2860ab658230d36d9a2e3d26b34c5b0fa3bb43369b2577cd9f523eab00"
     end
   end
 
