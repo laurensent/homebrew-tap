@@ -3,7 +3,7 @@ cask "ask" do
   name "ask"
   desc "A thin CLI wrapper around Claude Code for fast, single-shot queries"
   homepage "https://github.com/laurensent/ask"
-  version "0.2.2"
+  version "0.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -15,12 +15,12 @@ cask "ask" do
     on_intel do
       url "https://github.com/laurensent/ask/releases/download/v#{version}/ask_#{version}_darwin_amd64.tar.gz",
         verified: "github.com/laurensent/ask"
-      sha256 "c1450f941d44ff63a835ce1c600e2db35f6b52b2f05e8fee1c5364c8ece1d00f"
+      sha256 "57de113dab3d0b0f6978bd0a31e3ebedd0b9fe82f035705261eb4dc43b7877ee"
     end
     on_arm do
       url "https://github.com/laurensent/ask/releases/download/v#{version}/ask_#{version}_darwin_arm64.tar.gz",
         verified: "github.com/laurensent/ask"
-      sha256 "47a54505df8e71818b46a2688b8dd0dc8b80040e72c0db616f50891a561dcbdd"
+      sha256 "615da7f96402cbb57f80e1a314cfd9c104f6919c377f5150cf5f91664cab34a9"
     end
   end
 
@@ -28,12 +28,12 @@ cask "ask" do
     on_intel do
       url "https://github.com/laurensent/ask/releases/download/v#{version}/ask_#{version}_linux_amd64.tar.gz",
         verified: "github.com/laurensent/ask"
-      sha256 "2745900f9d8b4e755e3ae23acb74b77058be78396ae444056b4e61b555a27bbc"
+      sha256 "e2ade59ecbf46256f3c5836bc746449208891e19f2d412e1c5f24942d889a470"
     end
     on_arm do
       url "https://github.com/laurensent/ask/releases/download/v#{version}/ask_#{version}_linux_arm64.tar.gz",
         verified: "github.com/laurensent/ask"
-      sha256 "ec4630e7fca001de064056e2cb427aeae0ecfbc938053e60a01edac1a50fa6df"
+      sha256 "50a5f9d425ef843285a530885078b61c725e60d0739760dd6eb89f85802d7a9f"
     end
   end
 
